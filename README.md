@@ -131,4 +131,51 @@ The web application interface is built using **Streamlit**.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/heart-disease-prediction.git
+git clone https://github.com/Aryan-222005/Heart-Disease-Prediction
+'''
+
+### 2️⃣ Navigate to the project folder
+```bash
+cd Heart-Disease-Prediction
+'''
+
+### 3️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+'''
+
+### 4️⃣ Run the application
+```bash
+streamlit run app/app.py
+'''
+
+## 📂 Project Structure
+```
+Heart-Disease-Prediction
+│
+├── app
+│   └── app.py
+│
+├── Models
+│   ├── logistic_heart.pkl
+│   ├── scaler.pkl
+│   └── columns.pkl
+│
+├── Notebook
+│   └── Heart.ipynb
+│
+├── Data
+│   └── heart.csv
+│
+├── images
+│   ├── image-1.png
+│   ├── image-2.png
+│   ├── image-3.png
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+## 🌐 Live Demo
+https://heart-disease-risk-ai.streamlit.app/
