@@ -131,23 +131,24 @@ The web application interface is built using **Streamlit**.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/Aryan-222005/Heart-Disease-Prediction
-'''
+git clone https://github.com/Aryan-222005/Heart-Disease-Prediction.git
+```
 
-### 2️⃣ Navigate to the project folder
+### 2️⃣ Navigate to the project folder 
+
 ```bash
 cd Heart-Disease-Prediction
-'''
+```
 
 ### 3️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
-'''
+```
 
 ### 4️⃣ Run the application
 ```bash
 streamlit run app/app.py
-'''
+```
 
 ## 📂 Project Structure
 ```
